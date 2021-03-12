@@ -46,7 +46,7 @@ class SendAwsSnsSms extends Command
             'MessageAttributes' => [
                 'AWS.SNS.SMS.SenderID' => [
                     'DataType'    => 'String',
-                    'StringValue' => 'Aiseki'
+                    'StringValue' => '080-xxxx-xxxx'
                 ]
             ]
         ]);
@@ -57,8 +57,7 @@ class SendAwsSnsSms extends Command
 
 //        $sns->subscribe([
 //            'Protocol'              => 'sms',
-//            'Endpoint'              => '+818010551397',
-////            'Endpoint' => '+818030185174',
+//            'Endpoint'              => '+818011111111',
 //            'ReturnSubscriptionArn' => true,
 //            'TopicArn'              => $topic,
 //        ]);
